@@ -36,18 +36,18 @@ public class P2 {
 }
 
 
-class ListNode {
+class ListNode2 {
     int val;
     ListNode next;
 
-    ListNode() {
+    ListNode2() {
     }
 
-    ListNode(int val) {
+    ListNode2(int val) {
         this.val = val;
     }
 
-    ListNode(int val, ListNode next) {
+    ListNode2(int val, ListNode next) {
         this.val = val;
         this.next = next;
     }

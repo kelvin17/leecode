@@ -8,7 +8,7 @@ import java.util.Set;
 public class P3 {
     public static void main(String[] args) {
 
-        Solution32 solution3 = new Solution32();
+        Solution3_2 solution3 = new Solution3_2();
         String s = "abba";
         System.out.println(solution3.lengthOfLongestSubstring(s));
     }
@@ -58,7 +58,7 @@ class Solution3 {
     }
 }
 
-class Solution32 {
+class Solution3_2 {
 
     public int lengthOfLongestSubstring(String s) {
         if (s.length() == 0) return 0;
