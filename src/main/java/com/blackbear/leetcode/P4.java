@@ -15,7 +15,7 @@ public class P4 {
         nums2[2] = 4;
         nums2[3] = 4;
 
-        Solution42 solution4 = new Solution42();
+        Solution4_2 solution4 = new Solution4_2();
         solution4.findMedianSortedArrays(nums1, nums2);
     }
 }
@@ -63,7 +63,7 @@ class Solution4 {
 }
 
 
-class Solution42 {
+class Solution4_2 {
     /**
      * 思路说明
      * 1. 只有2分查找，才能实现log(m+n)
