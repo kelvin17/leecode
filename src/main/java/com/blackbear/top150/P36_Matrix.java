@@ -3,7 +3,7 @@ package com.blackbear.top150;
 import java.util.HashSet;
 import java.util.Set;
 
-public class P36_Matrics {
+public class P36_Matrix {
 
     public static void main(String[] args) {
         char[][] matrix = {
@@ -18,7 +18,7 @@ public class P36_Matrics {
                 {'.','.','.','.','8','.','.','7','9'}
         };
 
-        P36_Matrics matrics = new P36_Matrics();
+        P36_Matrix matrics = new P36_Matrix();
         System.out.printf("The result : %s", matrics.isValidSudoku(matrix));
 
     }
