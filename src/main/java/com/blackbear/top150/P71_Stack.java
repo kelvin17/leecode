@@ -8,13 +8,9 @@ public class P71_Stack {
     private final static Character DOT = '.';
 
     public static void main(String[] args) {
-
-
         String path = "/home/../usr//bin/./script";
-
         P71_Stack stack = new P71_Stack();
         System.out.printf(stack.simplifyPath(path));
-
     }
 
     public String simplifyPath2(String path) {
