@@ -4,6 +4,15 @@ import java.util.Stack;
 
 public class P71_Stack {
 
+    /**
+     * Split the origin path into parts instead of char is a much simpler solution.
+     * It just needs to consider four different branches , they are ".", "..", "", "others".
+     * But the solution based on char is much more complex. It includes much pop and check operations.
+     *
+     * The time and space complexity are O(n), n is the length of original path string based on Char. But for the
+     * solution of parts, the complexity will be less than that of char.
+     */
+
     private final static Character SLASH = '/';
     private final static Character DOT = '.';
 
